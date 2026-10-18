@@ -5,7 +5,7 @@
   non dipende dal sito web o dal nome del relativo branch.
 -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/lumen-et-umbra/.github/main/profile/assets/leu-banner.svg" alt="Lumen et Umbra — un MUD italiano dal 1994" width="760">
+  <img src="https://raw.githubusercontent.com/lumen-et-umbra/.github/main/profile/assets/leu-banner.webp" alt="Lumen et Umbra — un MUD italiano dal 1994" width="900">
 </p>
 
 <p align="center">
