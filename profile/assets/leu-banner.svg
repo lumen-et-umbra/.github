@@ -1,51 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
-  <title id="title">Lumen et Umbra</title>
-  <desc id="desc">Stendardo scuro e dorato: un emblema tra sole e ombra, il nome Lumen et Umbra e la scritta MUD italiano dal 1994.</desc>
-  <defs>
-    <linearGradient id="ground" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#141b28"/>
-      <stop offset=".53" stop-color="#0c111a"/>
-      <stop offset="1" stop-color="#1c1b25"/>
-    </linearGradient>
-    <radialGradient id="light" cx=".28" cy=".48" r=".7">
-      <stop stop-color="#d1a767" stop-opacity=".22"/>
-      <stop offset=".65" stop-color="#d1a767" stop-opacity=".02"/>
-      <stop offset="1" stop-color="#d1a767" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="gold" x1="0" y1="0" x2="1" y2=".2">
-      <stop stop-color="#f5e1b8"/>
-      <stop offset=".55" stop-color="#d9b777"/>
-      <stop offset="1" stop-color="#a67c42"/>
-    </linearGradient>
-    <clipPath id="coin"><circle cx="184" cy="170" r="77"/></clipPath>
-  </defs>
-  <rect width="1200" height="340" rx="12" fill="url(#ground)"/>
-  <rect width="1200" height="340" rx="12" fill="url(#light)"/>
-  <path d="M22 50V22H50 M1150 22H1178V50 M22 290V318H50 M1150 318H1178V290" fill="none" stroke="#866d4b" stroke-width="2" opacity=".7"/>
-  <path d="M48 170h40 M280 170h39 M1050 170h101" stroke="#9f855b" stroke-width="1" opacity=".38"/>
-  <g opacity=".25" fill="none" stroke="#cfb583">
-    <circle cx="184" cy="170" r="100"/>
-    <circle cx="184" cy="170" r="112" stroke-dasharray="2 11"/>
-    <path d="M184 41V61 M184 279V299 M55 170H74 M294 170H313"/>
-  </g>
-  <g clip-path="url(#coin)">
-    <rect x="107" y="93" width="154" height="154" fill="#172333"/>
-    <path d="M184 93 A77 77 0 0 0 184 247 Z" fill="#cfad72"/>
-    <circle cx="184" cy="170" r="77" fill="none" stroke="#d4b782" stroke-width="4"/>
-    <circle cx="209" cy="157" r="50" fill="#dfbf87"/>
-    <circle cx="230" cy="147" r="51" fill="#172333"/>
-  </g>
-  <circle cx="184" cy="170" r="81" fill="none" stroke="#d4b782" stroke-width="2"/>
-  <path d="M144 221h80" stroke="#e9c88c" stroke-width="2" opacity=".75"/>
-  <g fill="#d9c6a5" font-family="Georgia, 'Times New Roman', serif">
-    <text x="338" y="158" font-size="72" letter-spacing="5">LUMEN ET UMBRA</text>
-  </g>
-  <path d="M342 184H1026" stroke="#ae8857" stroke-width="1.5" opacity=".75"/>
-  <text x="341" y="223" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#d5b47b" letter-spacing="8">MUD ITALIANO · DAL 1994</text>
-  <text x="341" y="266" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-style="italic" fill="#a8a8b2" letter-spacing="1">Un mondo di parole. Una storia condivisa.</text>
-  <g stroke="#d8b375" stroke-width="1.5" opacity=".5">
-    <path d="M1049 102l9 9 -9 9 -9-9z" fill="none"/>
-    <path d="M1100 244v30 M1085 259h30"/>
-    <circle cx="1050" cy="263" r="3" fill="#d8b375"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380">
+<title>Lumen et Umbra — MUD italiano dal 1994</title>
+<defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#09111e"/><stop offset=".55" stop-color="#02050c"/><stop offset="1" stop-color="#17101d"/></linearGradient><linearGradient id="gold" x1="0" x2="1" y1="0" y2=".85"><stop stop-color="#fff2c6"/><stop offset=".48" stop-color="#e9c37f"/><stop offset="1" stop-color="#ac783b"/></linearGradient><radialGradient id="shine"><stop stop-color="#ba864e" stop-opacity=".17"/><stop offset="1" stop-color="#ba864e" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="380" rx="12" fill="url(#bg)"/>
+<ellipse cx="210" cy="190" rx="375" ry="260" fill="url(#shine)"/>
+<path d="M22 46V22H46 M1154 22H1178V46 M22 334V358H46 M1154 358H1178V334" stroke="#dbb776" opacity=".6" stroke-width="2" fill="none"/>
+<path d="M390 110H1140 M390 271H1140" stroke="#dbb776" opacity=".43" stroke-width="1"/>
+<path d="M35 86L38 93.5L44 95L38 96.5L35 104L32 96.5L26 95L32 93.5Z" fill="#dbb776" opacity=".65"/>
+<path d="M420 69L424 79L432 81L424 83L420 93L416 83L408 81L416 79Z" fill="#dbb776" opacity=".65"/>
+<path d="M1080 56L1083 63.5L1089 65L1083 66.5L1080 74L1077 66.5L1071 65L1077 63.5Z" fill="#dbb776" opacity=".65"/>
+<path d="M1045 267L1049 277L1057 279L1049 281L1045 291L1041 281L1033 279L1041 277Z" fill="#dbb776" opacity=".65"/>
+<path d="M370 313L372 318L376 319L372 320L370 325L368 320L364 319L368 318Z" fill="#dbb776" opacity=".65"/>
+<path d="M1161 189L1163 194L1167 195L1163 196L1161 201L1159 196L1155 195L1159 194Z" fill="#dbb776" opacity=".65"/>
+<path d="M110 284L113 291.5L119 293L113 294.5L110 302L107 294.5L101 293L107 291.5Z" fill="#dbb776" opacity=".65"/>
+<g transform="translate(211 190)">
+<g stroke-linejoin="round">
+  <circle r="120" fill="none" stroke="#dbb776" stroke-width="1.8"/>
+  <circle r="113" fill="none" stroke="#dbb776" stroke-width="1.8" opacity=".93"/>
+  <circle r="133" fill="none" stroke="#dbb776" stroke-width=".65" stroke-dasharray="3 9" opacity=".45"/>
+  <path d="M-11.09,76.2 L-19.96,93.9 L-20.86,74.12Z" fill="url(#gold)"/>
+  <path d="M-32.29,69.9 L-53,91.8 L-44.39,62.91Z" fill="url(#gold)"/>
+  <path d="M-53.76,55.13 L-71.34,64.24 L-60.44,47.7Z" fill="url(#gold)"/>
+  <path d="M-67.21,37.58 L-96.84,43.11 L-72.9,24.8Z" fill="url(#gold)"/>
+  <path d="M-75.89,13 L-95.47,10.03 L-76.94,3.06Z" fill="url(#gold)"/>
+  <path d="M-76.46,-9.11 L-103.68,-22.04 L-73.55,-22.78Z" fill="url(#gold)"/>
+  <path d="M-69.04,-34.09 L-83.14,-48 L-64.05,-42.75Z" fill="url(#gold)"/>
+  <path d="M-56.51,-52.31 L-70.93,-78.77 L-46.12,-61.66Z" fill="url(#gold)"/>
+  <path d="M-35.82,-68.16 L-39.05,-87.7 L-26.69,-72.23Z" fill="url(#gold)"/>
+  <circle r="77" fill="#010203" stroke="#f4d7a1" stroke-width="1.8"/>
+  <path d="M-1 -75 A75 75 0 0 1 -1 75 Q63 0 -1 -75Z" fill="url(#gold)" stroke="#dbb776" stroke-width=".6"/>
+  <circle r="81" fill="none" stroke="#d6aa68" stroke-width=".75" opacity=".85"/>
+  <path d="M0 -140 L10 -120 L0 -100 L-10 -120Z M0 140 L10 120 L0 100 L-10 120Z M-140 0 L-120 -10 L-100 0 L-120 10Z M140 0 L120 -10 L100 0 L120 10Z" fill="#010203" stroke="#f4d7a1" stroke-width="2"/>
+  <path d="M0 -132 L4 -120 L0 -108 L-4 -120Z M0 132 L4 120 L0 108 L-4 120Z M-132 0 L-120 -4 L-108 0 L-120 4Z M132 0 L120 -4 L108 0 L120 4Z" fill="#dbb776"/>
+  <g fill="#dbb776" opacity=".83"><path d="M-85 -90l6 11 11 6 -11 6 -6 11 -6 -11 -11 -6 11 -6Z" transform="scale(.35) translate(-171,-159)"/><path d="M85 90l6 11 11 6 -11 6 -6 11 -6 -11 -11 -6 11 -6Z" transform="scale(.35) translate(171,159)"/></g>
+</g></g>
+<text x="397" y="177" fill="#f0d2a0" font-family="Georgia, 'Times New Roman', serif" font-size="71" letter-spacing="3">LUMEN ET UMBRA</text>
+<path d="M399 199H1129" stroke="#dbb776" stroke-width="1.5" opacity=".72"/>
+<text x="399" y="243" fill="#dbb776" font-family="Georgia, 'Times New Roman', serif" font-size="25" letter-spacing="7">MUD ITALIANO · DAL 1994</text>
+<text x="399" y="307" fill="#ada7a1" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-style="italic">Un mondo di parole. Una storia condivisa.</text>
 </svg>
